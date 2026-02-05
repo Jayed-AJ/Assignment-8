@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+body {
+    background-color: oklch(98.4% 0.003 247.858) ;
+    max-width: 1540px;
+    margin: 0 auto;
+}
