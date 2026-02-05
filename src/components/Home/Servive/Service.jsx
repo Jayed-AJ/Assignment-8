@@ -14,7 +14,7 @@ const Service = () => {
                 <div className="p-4 rounded-lg bg-white ">
                     <img src={succDoc} alt="image" className="w-10 mx-auto mb-3" />
                     <h1 className="text-4xl font-bold md:text-5xl text-center">
-                        {/* <CountUp 
+                        <CountUp 
                         start={0} 
                         end={200} 
                         delay={3} 
@@ -26,15 +26,15 @@ const Service = () => {
                                 <span ref={countUpRef} /><span>+</span>
                                 </div>
                             )}
-                        </CountUp> */}
-                        <Counter end={200} duration={20} />
+                        </CountUp>
+                        
                     </h1>
                     <p className="text-lg font-semibold text-gray-400 text-center mt-2">Total Doctor</p>
                 </div>
                 <div className="p-4 rounded-lg bg-white ">
                     <img src={succPati} alt="image" className="w-10 mx-auto mb-3" />
                     <h1 className="text-4xl font-bold md:text-5xl text-center">
-                        {/* <CountUp start={0}
+                        <CountUp start={0}
                          end={1999}
                          delay={3}
                          duration={40}
@@ -45,14 +45,14 @@ const Service = () => {
                                 <span ref={countUpRef} /><span>+</span>
                                 </div>
                             )}
-                        </CountUp> */}
+                        </CountUp>
                     </h1>
                     <p className="text-lg font-semibold text-gray-400 text-center mt-2">Total Patient</p>
                 </div>
                 <div className="p-4 rounded-lg bg-white ">
                     <img src={succRev} alt="image" className="w-10 mx-auto mb-3" />
                     <h1 className="text-4xl font-bold md:text-5xl text-center">
-                        {/* <CountUp 
+                        <CountUp 
                          start={0}
                          end={1500}
                          delay={3}
@@ -64,14 +64,14 @@ const Service = () => {
                                 <span ref={countUpRef} /><span>+</span>
                                 </div>
                             )}
-                        </CountUp> */}
+                        </CountUp>
                     </h1>
                     <p className="text-lg font-semibold text-gray-400 text-center mt-2">Total Reveiws</p>
                 </div>
                 <div className="p-4 rounded-lg bg-white ">
                     <img src={succStaff} alt="image" className="w-10 mx-auto mb-3" />
                     <h1 className="text-4xl font-bold md:text-5xl text-center">
-                        {/* <CountUp start={0} 
+                        <CountUp start={0} 
                          end={800} 
                          delay={3} 
                          duration={30}
@@ -82,7 +82,7 @@ const Service = () => {
                                 <span ref={countUpRef} /><span>+</span>
                                 </div>
                             )}
-                        </CountUp> */}
+                        </CountUp>
                     </h1>
                     <p className="text-lg font-semibold text-gray-400 text-center mt-2">Total Staff</p>
                 </div>
